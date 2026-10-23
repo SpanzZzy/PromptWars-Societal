@@ -1,0 +1,425 @@
+[
+  {
+    "id": "sb-pune-001",
+    "title": "Severe road blockage due to multi-vehicle car crash at Kalyani Nagar junction",
+    "summary": "Major car crash involving two sedans and a transport vehicle on Kalyani Nagar Main Road near Central Avenue crossing. Complete carriage blockage, fuel spill hazard, and escalating traffic gridlock spreading to Nagar Road and Koregaon Park bridge.",
+    "category": "traffic_road_safety",
+    "sourceLanguage": "en",
+    "detectedLanguageName": "English (Indian)",
+    "preferredResponseLanguage": "en",
+    "status": "under_review",
+    "urgency": "critical",
+    "isEmergency": true,
+    "emergencyAdvisory": "CRITICAL TRAFFIC ACCIDENT & OBSTRUCTION: Traffic completely halted on Kalyani Nagar Main Road. Avoid route via East Main Road. Call Pune Police / Traffic Control (112 / 020-26122880) and 108 Emergency Medical Services.",
+    "facts": [
+      {
+        "id": "f-1",
+        "statement": "Two sedans collided head-on at the central intersection of Kalyani Nagar Main Road, with a third vehicle rear-ended.",
+        "provenance": "extracted_from_source",
+        "sourceReference": "crash_kalyani_nagar.jpg"
+      },
+      {
+        "id": "f-2",
+        "statement": "Both northbound and southbound carriageways completely blocked; emergency ambulances facing difficulty crossing toward Sahyadri Hospital Nagar Road.",
+        "provenance": "user_reported"
+      },
+      {
+        "id": "f-3",
+        "statement": "Observable minor radiator fluid and petrol leakage on tarmac posing fire/skid hazard.",
+        "provenance": "extracted_from_source",
+        "sourceReference": "crash_kalyani_nagar.jpg"
+      },
+      {
+        "id": "f-4",
+        "statement": "Yerwada / Kalyani Nagar Traffic Division patrol dispatched crane to clear obstruction.",
+        "provenance": "needs_confirmation"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Location",
+        "type": "location",
+        "value": "Kalyani Nagar Main Road, Pune"
+      },
+      {
+        "name": "Jurisdiction",
+        "type": "department",
+        "value": "Pune City Police Traffic Branch (Yerwada Division)"
+      },
+      {
+        "name": "Hospital Route Impacted",
+        "type": "other",
+        "value": "Sahyadri Specialty Hospital & Nagar Road Corridor"
+      }
+    ],
+    "location": {
+      "rawInput": "Central Avenue crossing, Kalyani Nagar, Pune 411006",
+      "locality": "Kalyani Nagar",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "approximateCoordinates": {
+        "lat": 18.5482,
+        "lng": 73.9031
+      },
+      "isApproximate": true
+    },
+    "incidentDate": "2026-10-23",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "fileName": "crash_kalyani_nagar.jpg",
+        "fileType": "image",
+        "extractedSnippet": "Two damaged cars perpendicular across both lanes with bumper debris and fluid trail.",
+        "isVerifiedContent": true
+      }
+    ],
+    "missingInformation": [
+      "Official Pune Traffic Police FIR / Incident docket number",
+      "Confirmation of whether tow cranes have arrived on site"
+    ],
+    "contradictions": [],
+    "verification": {
+      "isIndependentlyVerified": false,
+      "verificationNote": "Urgent traffic disruption reported with photographic evidence. Field confirmation and crane dispatch requested with Yerwada Traffic Police.",
+      "sourcesChecked": [
+        "Pune Police Emergency Dispatch 112",
+        "Pune Traffic WhatsApp Grievance"
+      ],
+      "unverifiedClaims": [
+        "Exact injury count of vehicle occupants"
+      ]
+    },
+    "recommendedActions": [
+      {
+        "id": "act-1",
+        "title": "Emergency Traffic Control & Tow Crane Dispatch",
+        "targetEntity": "Pune City Traffic Police (Yerwada Division)",
+        "portalOrDesk": "Pune Traffic Control 020-26122880 / 112",
+        "steps": [
+          "Direct traffic diversion through North Main Road, Koregaon Park and Bishop School lane.",
+          "Deploy heavy towing vehicle from Yerwada Traffic depot to clear wreckage.",
+          "Apply sand/absorbent powder over leaked fuel to prevent fire hazard."
+        ],
+        "prerequisites": [
+          "Photographic evidence",
+          "Accurate intersection landmark"
+        ],
+        "emergencyNote": "Escalate to 108 Ambulance immediately if occupants require medical triage.",
+        "actionType": "emergency_contact"
+      },
+      {
+        "id": "act-2",
+        "title": "PMC Disaster Management & Road Clearance",
+        "targetEntity": "PMC Road Maintenance & Traffic Planning",
+        "portalOrDesk": "PMC Care Grievance Portal",
+        "steps": [
+          "Clear shattered safety glass and oil slick from road surface following vehicle towing.",
+          "Issue automated civic detour advisory via Pune Smart City Variable Message Signs (VMS)."
+        ],
+        "prerequisites": [
+          "Police incident report reference"
+        ],
+        "actionType": "portal_submission"
+      }
+    ],
+    "publicVisibility": "approved",
+    "isDemoData": true,
+    "createdAt": "2026-10-23T06:15:00.000Z",
+    "updatedAt": "2026-10-23T06:25:00.000Z"
+  },
+  {
+    "id": "sb-pune-002",
+    "title": "Exposed live wiring junction box near Shivaji Nagar bus stop",
+    "summary": "An open electrical junction box with uncovered live wiring is exposed at foot level right next to the municipal bus shelter, posing imminent shock hazard during monsoon puddles.",
+    "category": "civic_infrastructure",
+    "sourceLanguage": "mr",
+    "detectedLanguageName": "Marathi (मराठी)",
+    "preferredResponseLanguage": "en",
+    "status": "under_review",
+    "urgency": "critical",
+    "isEmergency": true,
+    "emergencyAdvisory": "CRITICAL ELECTRICAL HAZARD: Keep at least 15 feet away. If sparking occurs, alert emergency desk 112 or MSEDCL 24x7 helpline 1912 immediately.",
+    "facts": [
+      {
+        "id": "f-1",
+        "statement": "Junction box cover is missing and wires are exposed at 0.5m height.",
+        "provenance": "extracted_from_source",
+        "sourceReference": "junction_photo.jpg"
+      },
+      {
+        "id": "f-2",
+        "statement": "Location is on the pavement directly adjacent to Shivaji Nagar Bus Stand platform 2.",
+        "provenance": "user_reported"
+      },
+      {
+        "id": "f-3",
+        "statement": "MSEDCL electricity distribution box identified via plate code SN-411005.",
+        "provenance": "extracted_from_source",
+        "sourceReference": "junction_photo.jpg"
+      },
+      {
+        "id": "f-4",
+        "statement": "Field technician inspection requested; awaiting official site visit confirmation.",
+        "provenance": "needs_confirmation"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Location",
+        "type": "location",
+        "value": "Shivaji Nagar, Pune"
+      },
+      {
+        "name": "Utility Department",
+        "type": "department",
+        "value": "MSEDCL (Maharashtra State Electricity Distribution Co.)"
+      },
+      {
+        "name": "Public Asset",
+        "type": "other",
+        "value": "Feeder Junction Box SN-411005"
+      }
+    ],
+    "location": {
+      "rawInput": "Near Shivaji Nagar bus stand, Pune 411005",
+      "locality": "Shivaji Nagar",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "approximateCoordinates": {
+        "lat": 18.5314,
+        "lng": 73.8446
+      },
+      "isApproximate": true
+    },
+    "incidentDate": "2026-10-22",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "fileName": "junction_photo.jpg",
+        "fileType": "image",
+        "extractedSnippet": "Shows red/blue cables unshielded inside rusted casing with danger sign faded.",
+        "isVerifiedContent": true
+      }
+    ],
+    "missingInformation": [
+      "Name of specific electricity sub-division engineer",
+      "Whether previous grievance docket number exists"
+    ],
+    "contradictions": [],
+    "verification": {
+      "isIndependentlyVerified": false,
+      "verificationNote": "Community reported with photographic evidence. Physical inspection by municipal/MSEDCL officer pending. Not yet certified as resolved.",
+      "sourcesChecked": [
+        "MSEDCL Pune Central Ward Registry",
+        "PMC Disaster Management Desk"
+      ],
+      "unverifiedClaims": [
+        "Exact live voltage running through exposed circuit"
+      ]
+    },
+    "recommendedActions": [
+      {
+        "id": "act-1",
+        "title": "Emergency MSEDCL Helpline Escalation",
+        "targetEntity": "MSEDCL Pune Circle",
+        "portalOrDesk": "Toll-free 1912 / WhatsApp 9930399303",
+        "steps": [
+          "Quote pole/junction code SN-411005 and specify Shivaji Nagar Bus Stand.",
+          "Request emergency de-energization or barricading.",
+          "Obtain grievance tracking token number."
+        ],
+        "prerequisites": [
+          "Photographic evidence",
+          "Exact landmark"
+        ],
+        "emergencyNote": "Call immediately if rainwater levels approach the box.",
+        "actionType": "emergency_contact"
+      },
+      {
+        "id": "act-2",
+        "title": "Pune Municipal Corporation (PMC) Care Grievance",
+        "targetEntity": "PMC Road Maintenance & Electrical Dept",
+        "portalOrDesk": "PMC Care Portal / App",
+        "steps": [
+          "File road safety hazard complaint under Ward Office 7.",
+          "Attach photographic evidence and MSEDCL ticket reference."
+        ],
+        "prerequisites": [
+          "Mobile number for OTP verification"
+        ],
+        "actionType": "portal_submission"
+      }
+    ],
+    "publicVisibility": "approved",
+    "isDemoData": true,
+    "createdAt": "2026-10-22T08:30:00.000Z",
+    "updatedAt": "2026-10-22T10:15:00.000Z"
+  },
+  {
+    "id": "sb-pune-003",
+    "title": "Discrepancy in Senior Citizen Pension disbursement & Jeevan Pramaan in Pune Head Post Office",
+    "summary": "A 68-year-old pensioner reported non-credit of monthly pension for September due to biometric fingerprint scanner error during annual Digital Life Certificate submission at Pune GPO.",
+    "category": "document_public_service",
+    "sourceLanguage": "mr",
+    "detectedLanguageName": "Marathi (मराठी)",
+    "preferredResponseLanguage": "en",
+    "status": "under_review",
+    "urgency": "medium",
+    "isEmergency": false,
+    "facts": [
+      {
+        "id": "f-1",
+        "statement": "Aadhaar biometric scan failed twice at Pune Head Post Office (Sadhu Vaswani Road) counter on 18 Oct.",
+        "provenance": "extracted_from_source",
+        "sourceReference": "voice_recording_pensioner.mp3"
+      },
+      {
+        "id": "f-2",
+        "statement": "PPO (Pension Payment Order) number matches Central Civil Pensioners database.",
+        "provenance": "independently_verified",
+        "sourceReference": "CPAO Registry Lookup"
+      },
+      {
+        "id": "f-3",
+        "statement": "Iris scan or Aadhaar Face RD alternative was not offered at the Pune GPO counter.",
+        "provenance": "user_reported"
+      },
+      {
+        "id": "f-4",
+        "statement": "Pension credit was temporarily held by disbursing bank pending certificate validation.",
+        "provenance": "needs_confirmation"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Program",
+        "type": "document",
+        "value": "National Social Assistance Programme / CPAO"
+      },
+      {
+        "name": "Disbursing Agency",
+        "type": "department",
+        "value": "Pune General Post Office (GPO) / SBI Pension Cell Pune"
+      },
+      {
+        "name": "Technology",
+        "type": "other",
+        "value": "Jeevan Pramaan Face RD App"
+      }
+    ],
+    "location": {
+      "rawInput": "Pune GPO, Sadhu Vaswani Road, Pune 411001",
+      "locality": "Camp / Pune Station",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "approximateCoordinates": {
+        "lat": 18.5204,
+        "lng": 73.8743
+      },
+      "isApproximate": true
+    },
+    "incidentDate": "2026-10-18",
+    "evidence": [
+      {
+        "id": "ev-1",
+        "fileName": "voice_recording_pensioner.mp3",
+        "fileType": "audio",
+        "extractedSnippet": "Voice recording detailing counter refusal and biometric error code 300.",
+        "isVerifiedContent": true
+      },
+      {
+        "id": "ev-2",
+        "fileName": "ppo_letter_scan.pdf",
+        "fileType": "document",
+        "extractedSnippet": "Official PPO cover slip confirming entitlement and Bank IFSC.",
+        "isVerifiedContent": true
+      }
+    ],
+    "missingInformation": [
+      "Exact PPO alphanumeric registration code",
+      "Bank branch manager response in writing"
+    ],
+    "contradictions": [],
+    "verification": {
+      "isIndependentlyVerified": false,
+      "verificationNote": "Procedural guidance verified against Department of Pension & Pensioners Welfare (DoPPW) guidelines (OM No. 1(2)/2023-P&PW(H)).",
+      "sourcesChecked": [
+        "DoPPW Portal jeevanpramaan.gov.in",
+        "UIDAI Face Authentication Guidelines"
+      ],
+      "unverifiedClaims": [
+        "Whether local branch manager formally rejected manual verification certificate"
+      ]
+    },
+    "recommendedActions": [
+      {
+        "id": "act-1",
+        "title": "Use Android Jeevan Pramaan Face RD (Zero Branch Visit)",
+        "targetEntity": "UIDAI & Ministry of Electronics & IT",
+        "portalOrDesk": "Google Play Store / jeevanpramaan.gov.in",
+        "steps": [
+          "Download official AadhaarFaceRD app from Google Play Store.",
+          "Install Jeevan Pramaan Client application.",
+          "Scan face via smartphone camera with daylight illumination; biometric fingerprint reader not required.",
+          "Download generated Pramaan ID receipt for records."
+        ],
+        "prerequisites": [
+          "Aadhaar linked mobile number for OTP",
+          "Android smartphone with front camera"
+        ],
+        "actionType": "document_prep"
+      },
+      {
+        "id": "act-2",
+        "title": "Submit Physical Form Life Certificate (Alternative)",
+        "targetEntity": "Bank Pension Processing Cell, Pune",
+        "portalOrDesk": "Designated Branch Pension Officer",
+        "steps": [
+          "If face authentication is unavailable, obtain Form 63 (Physical Life Certificate) signed by a Gazetted Officer, Magistrate, or Postmaster.",
+          "Branch manager is legally bound to accept manual certificate under RBI guidelines (RBI/2014-15/587)."
+        ],
+        "prerequisites": [
+          "Original PPO Book",
+          "Gazetted Officer signature"
+        ],
+        "actionType": "portal_submission"
+      }
+    ],
+    "publicVisibility": "approved",
+    "isDemoData": true,
+    "createdAt": "2026-10-19T11:20:00.000Z",
+    "updatedAt": "2026-10-20T16:00:00.000Z"
+  },
+  {
+    "id": "sb-patient-record-001",
+    "userId": "patient_444",
+    "title": "Diabetes HbA1c Lab Report",
+    "summary": "Patient HbA1c test level 7.2%",
+    "category": "medical_health_records",
+    "sourceLanguage": "en",
+    "preferredResponseLanguage": "en",
+    "status": "submitted",
+    "urgency": "medium",
+    "isEmergency": false,
+    "facts": [],
+    "entities": [],
+    "evidence": [],
+    "missingInformation": [],
+    "contradictions": [],
+    "verification": {
+      "isIndependentlyVerified": false,
+      "verificationNote": "Patient uploaded",
+      "sourcesChecked": [],
+      "unverifiedClaims": []
+    },
+    "recommendedActions": [],
+    "publicVisibility": "approved",
+    "isDemoData": false,
+    "deleteSecret": "patient-token",
+    "createdAt": "2026-10-23T09:44:39.651Z",
+    "updatedAt": "2026-10-23T09:44:39.651Z"
+  }
+]

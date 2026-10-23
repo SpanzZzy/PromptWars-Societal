@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 15, 23, 42;
+  --background-rgb: 248, 250, 252;
+}
+
+.dark {
+  --foreground-rgb: 241, 245, 249;
+  --background-rgb: 15, 23, 42;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-rgb));
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Accessibility: Text Scaling */
+html.text-scale-large {
+  font-size: 112.5%; /* 18px base */
+}
+
+html.text-scale-larger {
+  font-size: 125%; /* 20px base */
+}
+
+/* Accessibility: High Contrast */
+html.high-contrast {
+  filter: contrast(135%);
+}
+
+html.high-contrast body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+html.high-contrast.dark body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+html.high-contrast a, html.high-contrast button {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Accessibility: Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Accessible focus styling */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 3px solid #0284c7;
+  outline-offset: 2px;
+}
+
+/* Leaflet map styles */
+@import 'leaflet/dist/leaflet.css';
